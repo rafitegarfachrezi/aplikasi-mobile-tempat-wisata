@@ -1,0 +1,10 @@
+^D:\SEMESTER 3\PPB(P)\FLUTTER PROJECT\PROJECT2\NEW FOLDER\WISATAAPLIKASI\BUILD\WINDOWS\CMAKEFILES\B36885CEB451742F162B8119E2B0211B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/SEMESTER 3/PPB(P)/flutter project/project2/New folder/wisataaplikasi/windows" "-BD:/SEMESTER 3/PPB(P)/flutter project/project2/New folder/wisataaplikasi/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/SEMESTER 3/PPB(P)/flutter project/project2/New folder/wisataaplikasi/build/windows/wisataaplikasi.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

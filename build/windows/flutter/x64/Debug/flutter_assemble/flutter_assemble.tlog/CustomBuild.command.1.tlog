@@ -1,0 +1,28 @@
+^D:\SEMESTER 3\PPB(P)\FLUTTER PROJECT\PROJECT2\NEW FOLDER\WISATAAPLIKASI\BUILD\WINDOWS\CMAKEFILES\6AA34AD68EC96852C8C843AA3288CA07\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\src\flutter "PROJECT_DIR=D:\SEMESTER 3\PPB(P)\flutter project\project2\New folder\wisataaplikasi" FLUTTER_ROOT=D:\src\flutter "FLUTTER_EPHEMERAL_DIR=D:\SEMESTER 3\PPB(P)\flutter project\project2\New folder\wisataaplikasi\windows\flutter\ephemeral" "PROJECT_DIR=D:\SEMESTER 3\PPB(P)\flutter project\project2\New folder\wisataaplikasi" "FLUTTER_TARGET=D:\SEMESTER 3\PPB(P)\flutter project\project2\New folder\wisataaplikasi\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\SEMESTER 3\PPB(P)\flutter project\project2\New folder\wisataaplikasi\.dart_tool\package_config.json" D:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SEMESTER 3\PPB(P)\FLUTTER PROJECT\PROJECT2\NEW FOLDER\WISATAAPLIKASI\BUILD\WINDOWS\CMAKEFILES\903CAB5B05C58AA31D16A20B3C35AD5C\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SEMESTER 3\PPB(P)\FLUTTER PROJECT\PROJECT2\NEW FOLDER\WISATAAPLIKASI\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/SEMESTER 3/PPB(P)/flutter project/project2/New folder/wisataaplikasi/windows" "-BD:/SEMESTER 3/PPB(P)/flutter project/project2/New folder/wisataaplikasi/build/windows" --check-stamp-file "D:/SEMESTER 3/PPB(P)/flutter project/project2/New folder/wisataaplikasi/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
