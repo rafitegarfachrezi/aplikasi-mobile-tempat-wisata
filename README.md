@@ -1,6 +1,9 @@
 # wisataaplikasi
 
-A new Flutter project.
+TUGAS PPB(P)
+Rafi Tegar Fachrezi IK-2A (3.3.4.21.0.20)
+
+<img src= "https://user-images.githubusercontent.com/97076363/212525978-c1498864-1973-4847-bb0d-c2b10c4bc557.jpg" witdh="600px">
 
 ## Getting Started
 
